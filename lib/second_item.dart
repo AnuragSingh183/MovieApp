@@ -84,15 +84,17 @@ class Filmitem extends StatelessWidget {
                     
                     Text("Director:${Director}"),
                   ],),
+                  SizedBox(width: 6,),
                   Row(children: <Widget>[
-
-                    
-                    
-                
-                    Text("year:${year}"),
+                  
+                  Text("year:${year}"),
+                  
                   ],),
+
+                  SizedBox(width: 6,),
                     Row(children: <Widget>[
                     Icon(Icons.star),
+                    
                     SizedBox(width: 6,),
                     Text("rating:${rating}"),
                   ],),

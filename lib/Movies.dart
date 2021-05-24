@@ -19,9 +19,9 @@ const Genres= const[
   id: "a3"),
 
   Types(
-    Genre: "Romance",
+    Genre: "SuperHero",
     color: Colors.grey,
-    id:"a4"
+    id:"a11"
   ),
 
   Types(
@@ -65,8 +65,8 @@ const Genres= const[
 
   Types(
     color: Colors.pink,
-    Genre: "SuperHero",
-    id: "a11",
+    Genre: "Romance",
+    id: "a4",
   ),
 
   Types(
@@ -202,6 +202,61 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     Director: "Christopher Nolan",
     id: "f10",
     imageUrl: "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/tenet_660_051220065009.jpg",
+  ),
+
+  Film(
+    categories: [
+      "a11",
+
+    ],
+
+    id: "f11",
+    title: "The Dark Knight",
+    Director: "Christopher Nolan",
+    rating: 9.1,
+    year: 2008,
+    imageUrl: "https://images.indianexpress.com/2019/08/the-dark-knight-759.jpg",
+
+  ),
+
+  Film(
+    title: "Avengers",
+    Director: "Joss Whedon",
+    year: 2012,
+    id: "f12",
+    categories: [
+      "a11"
+    ],
+
+    rating: 8.0,
+    imageUrl: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F48C2D492B31714C94AB0DD0BCF3D3CA7EAFB658F922BF313011C9D308B9B494/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    
+  ),
+  Film(
+    title: "Justice League",
+    Director: "Zack Snyder",
+    year: 2021,
+    id: "f13",
+    categories: 
+    [
+      "a11"
+    ],
+    rating: 8.2,
+    imageUrl: "https://cdn.vox-cdn.com/thumbor/hn2EdrPjmSw_KazvS5_S0dp2Y3A=/0x0:1598x1370/1200x800/filters:focal(706x395:960x649)/cdn.vox-cdn.com/uploads/chorus_image/image/69007557/Screen_Shot_2021_03_22_at_10.54.39_AM.0.png"
+
+  ),
+  Film(
+    title: "Batman V Superman",
+    id: "f14",
+    Director: "zack Snyder",
+    imageUrl: "https://thedirect.s3.amazonaws.com/media/article_full/batsup1.jpg",
+    rating: 7.5,
+    categories: [
+      "a11"
+    ],
+    year: 2016,
+    
+
   )
 
 ];
