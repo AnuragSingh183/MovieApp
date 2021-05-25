@@ -8,22 +8,7 @@ import './home_item.dart';
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        
-        elevation: 0 ,
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        centerTitle: true,
-        title: Text("GENRES",
-         
-         style: TextStyle(
-           fontWeight: FontWeight.bold,
-           color: Colors.red,
-           
-           fontSize: 22,
-         ),
-        ),),
-      body: GridView(
+    return GridView(
         
         padding: const EdgeInsets.all(25),
       children: Genres.map((catdata) =>
@@ -39,7 +24,7 @@ class HomeScreen extends StatelessWidget {
       
       crossAxisSpacing: 20,
       mainAxisSpacing: 20),
-    ) 
-    );
+    ) ;
+    
   }
 }

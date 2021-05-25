@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movies/HomeScreen.dart';
 import 'package:movies/ThirdScreen.dart';
 import 'package:movies/secondscreen.dart';
+import 'package:movies/tab_screen.dart';
 
 
 void main() {
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
       ),
       //home: categoriesScreen(),
       routes: {
-        "/":(_)=>HomeScreen(),  //equivalent to home:categories()
+        "/":(_)=>TabScreen(),  //equivalent to home:categories()
         "/xxx": (_)=>MovieScreen(),
         //"categoriesMeals.routeName":(_)=>......//can use the class name
         "/abc":(_)=>Movieinfo()
