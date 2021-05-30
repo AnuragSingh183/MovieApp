@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movies/HomeScreen.dart';
+
 import 'package:movies/ThirdScreen.dart';
 import 'package:movies/secondscreen.dart';
 import 'package:movies/tab_screen.dart';

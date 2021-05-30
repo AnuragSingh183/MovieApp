@@ -113,7 +113,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
       "a3"
     ],
     rating: 9.0,
-    Director: "xyz",
+    Director: "Peter Jackson",
     imageUrl: "https://www.whats-on-netflix.com/wp-content/uploads/2018/07/is-the-lord-of-the-rings-trilogy-on-netflix-2018.jpg",
 
   ),
@@ -257,6 +257,34 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     year: 2016,
     
 
-  )
+  ),
+  Film(
+    title: "Pirates Of Carribbean",
+    id: "f15",
+    Director:  'Gore Verbinski',
+    imageUrl: "https://thumbor.forbes.com/thumbor/711x436/https://blogs-images.forbes.com/scottmendelson/files/2017/05/pirates_of_the_caribbean_dead_men_tell_no_tales_by_mintmovi3-db23j4w.jpg?width=960",
+    rating: 7.4,
+    categories: [
+      "a3"
+    ],
+    year: 2003,
+
+  ),
+
+  Film(
+    imageUrl: "https://www.denofgeek.com/wp-content/uploads/2021/03/Who-Wins-in-Godzilla-vs-Kong.jpeg?resize=768%2C432",
+    title: "GodZilla Vs Kong",
+    year: 2021,
+    Director: "Adam Wingard",
+    categories: [
+      "a3"
+    ],
+    id: "f16",
+    rating: 7.0,
+
+  ),
+
+  
+
 
 ];

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movies/ThirdScreen.dart';
+
 
 class Filmitem extends StatelessWidget {
   final String id;
@@ -95,9 +95,8 @@ class Filmitem extends StatelessWidget {
                     SizedBox(width: 6,),
                       Row(children: <Widget>[
                       Icon(Icons.star),
+                      Text("${rating}")
                       
-                      SizedBox(width: 6,),
-                      Text("rating:${rating}"),
                     ],),
                   ],
                 ),
