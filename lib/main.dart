@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import './filter.dart';
 import 'package:movies/ThirdScreen.dart';
 import 'package:movies/secondscreen.dart';
 import 'package:movies/tab_screen.dart';
@@ -49,7 +49,8 @@ class MyApp extends StatelessWidget {
         "/":(_)=>TabScreen(),  //equivalent to home:categories()
         "/xxx": (_)=>MovieScreen(),
         //"categoriesMeals.routeName":(_)=>......//can use the class name
-        "/abc":(_)=>Movieinfo()
+        "/abc":(_)=>Movieinfo(),
+        "/filter":(_)=>FilterScreen()
       },
     );
   }

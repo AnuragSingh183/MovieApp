@@ -1,7 +1,6 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:movies/HomeScreen.dart';
+import 'package:movies/drawer.dart';
 import 'package:movies/favourites.dart';
 
 
@@ -41,6 +40,7 @@ class _TabScreenState extends State<TabScreen> {
           
           
         ),
+        drawer: MainDrawer(),
         body: TabBarView(children: [//internally connected with defaulttabcontroller
           HomeScreen(),
           FavScreen()
