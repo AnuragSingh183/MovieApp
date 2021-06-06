@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:movies/HomeScreen.dart';
 import 'package:movies/drawer.dart';
 import 'package:movies/favourites.dart';
+import 'package:movies/info.dart';
+import "./Movies.dart";
 
 
 class TabScreen extends StatefulWidget {
+  final List<Film> favouritefilm;
+  TabScreen(this.favouritefilm);
 
   @override
   _TabScreenState createState() => _TabScreenState();
@@ -43,7 +47,7 @@ class _TabScreenState extends State<TabScreen> {
         drawer: MainDrawer(),
         body: TabBarView(children: [//internally connected with defaulttabcontroller
           HomeScreen(),
-          FavScreen()
+          FavScreen(widget.favouritefilm)
           
         ],
         ),

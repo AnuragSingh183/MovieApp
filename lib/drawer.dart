@@ -32,7 +32,7 @@ class MainDrawer extends StatelessWidget {
         fontWeight: FontWeight.bold
       ),),
       onTap: (){
-        Navigator.of(context).pushNamed("/");
+        Navigator.of(context).pushReplacementNamed("/");
       },
       ),
 
@@ -49,7 +49,7 @@ class MainDrawer extends StatelessWidget {
         ,
         ),
         onTap: (){
-           Navigator.of(context).pushNamed(FilterScreen.routeName);
+           Navigator.of(context).pushReplacementNamed(FilterScreen.routeName);//deletes the last page from where we r cumming. saves memory
         },
         
       )

@@ -7,6 +7,7 @@ class Filmitem extends StatelessWidget {
   final String imageUrl;
   final int year;
   
+  // ignore: non_constant_identifier_names
   final String Director;
   final double rating;
 
@@ -14,12 +15,14 @@ class Filmitem extends StatelessWidget {
     @required this.id,
     @required this.title,
     @required this.imageUrl,
+    // ignore: non_constant_identifier_names
     @required this.Director,
     @required this.year,
     @required this.rating,
     
   });
 
+  // ignore: non_constant_identifier_names
   void SelectMovie(BuildContext context){
     Navigator.of(context).pushNamed("/abc",arguments:id );
   }
@@ -39,13 +42,17 @@ class Filmitem extends StatelessWidget {
           child: Column(
             children: <Widget>[
               Stack(
+                
                 children: <Widget>[
+                  
                   ClipRRect(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15),
                     ),
                     child: Image.network(
+                      
+                      
                       imageUrl,
                       height: 250,
                       width: double.infinity,
@@ -62,7 +69,9 @@ class Filmitem extends StatelessWidget {
                         vertical: 5,
                         horizontal: 20,
                       ),
+                      
                       child: Text(
+                      
                         title,
                         style: TextStyle(
                           fontSize: 26,
@@ -72,9 +81,18 @@ class Filmitem extends StatelessWidget {
                         overflow: TextOverflow.fade,
                       ),
                     ),
+                    
+                    
+                  ),
+                  Container(
+                    alignment: Alignment.topLeft,
+                    child: 
+                    Icon(Icons.star_border_outlined),
                   )
                 ],
+                
               ),
+            
               Padding(
                 padding: EdgeInsets.all(20),
                 child: Row(
@@ -83,11 +101,13 @@ class Filmitem extends StatelessWidget {
                     Row(children: <Widget>[
                       
                       
+                      // ignore: unnecessary_brace_in_string_interps
                       Text("Director:${Director}"),
                     ],),
                     SizedBox(width: 6,),
                     Row(children: <Widget>[
                     
+                    // ignore: unnecessary_brace_in_string_interps
                     Text("year:${year}"),
                     
                     ],),
@@ -95,6 +115,7 @@ class Filmitem extends StatelessWidget {
                     SizedBox(width: 6,),
                       Row(children: <Widget>[
                       Icon(Icons.star),
+                      // ignore: unnecessary_brace_in_string_interps
                       Text("${rating}")
                       
                     ],),

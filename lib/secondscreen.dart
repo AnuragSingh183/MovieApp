@@ -42,7 +42,7 @@ class MovieScreen extends StatelessWidget {
               year: filteredMovies[index].year,
               
               imageUrl: filteredMovies[index].imageUrl,
-              Director: filteredMovies[index].Director,
+              Director: filteredMovies[index].director,
               rating: filteredMovies[index].rating,
               
             );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies/drawer.dart';
 
 class FilterScreen extends StatelessWidget {
 static const routeName = "/filter";
@@ -10,6 +11,7 @@ static const routeName = "/filter";
       appBar: AppBar(title: Text("filtered FIlms"),
       
       ),
+      drawer: MainDrawer(),
       body: Text("bruh"),
       
     );

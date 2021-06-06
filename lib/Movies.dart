@@ -83,7 +83,7 @@ const Genres= const[
 const info = const[
   Film(
 title: "Shutter Island",
-Director: "Martin Scorcese",
+director: "Martin Scorcese",
 
 id: "f1",
 categories: [
@@ -96,7 +96,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
 
   Film(
     title: "MadMax Fury Road",
-    Director: "George Miller",
+    director: "George Miller",
     id: "f2",
     categories: [
       "a2"
@@ -113,7 +113,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
       "a3"
     ],
     rating: 9.0,
-    Director: "Peter Jackson",
+    director: "Peter Jackson",
     imageUrl: "https://www.whats-on-netflix.com/wp-content/uploads/2018/07/is-the-lord-of-the-rings-trilogy-on-netflix-2018.jpg",
 
   ),
@@ -125,7 +125,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
       "a4"
     ],
     rating: 8.9,
-    Director: "James Cameron",
+    director: "James Cameron",
     imageUrl: "https://scontent.fpat1-1.fna.fbcdn.net/v/t1.6435-9/117357203_3544561898896579_7992014078248731844_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=6e5ad9&_nc_ohc=g6Jt33nJpjUAX9sy-DB&_nc_ht=scontent.fpat1-1.fna&oh=34e36ac92132ea4c136fa6e6094a08bf&oe=60CE0C1A",
   ),
 
@@ -136,7 +136,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     categories: [
       "a1"
     ],
-    Director: "David Fincher",
+    director: "David Fincher",
     imageUrl: "https://cdn.pastemagazine.com/www/articles/2019/09/29/seven-century-main.jpg",
     rating: 8.3,
   ),
@@ -147,7 +147,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     categories: [
       "a1"
     ],
-    Director: "David Fincher",
+    director: "David Fincher",
     imageUrl: "https://filmdaily.co/wp-content/uploads/2020/09/Zodiac-lede.jpg",
     rating: 8.2,
   ),
@@ -160,7 +160,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
       "a1"
     ],
 
-    Director: "Denis Villeneuve",
+    director: "Denis Villeneuve",
     rating: 8.1,
     imageUrl: "https://i1.wp.com/thefulcrum.ca/wp-content/uploads/2019/03/Arts_MYSHS_-Prisoners_cred_Alcon-Entertainment.jpg?fit=740%2C416&ssl=1"
 
@@ -169,7 +169,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
   Film(
     title: "John Wick",
     year: 2014,
-    Director: "Chad Stahelki",
+    director: "Chad Stahelki",
     rating: 7.0,
     id: "f8",
     categories: [
@@ -183,7 +183,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     title: "Mission Impossible",
     year: 2017,
     rating: 7.5,
-    Director: "Christopher Mcquire",
+    director: "Christopher Mcquire",
     categories: [
       "a2"
     ],
@@ -199,7 +199,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     categories: [
       "a2"
     ],
-    Director: "Christopher Nolan",
+    director: "Christopher Nolan",
     id: "f10",
     imageUrl: "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/tenet_660_051220065009.jpg",
   ),
@@ -212,7 +212,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
 
     id: "f11",
     title: "The Dark Knight",
-    Director: "Christopher Nolan",
+    director: "Christopher Nolan",
     rating: 9.1,
     year: 2008,
     imageUrl: "https://images.indianexpress.com/2019/08/the-dark-knight-759.jpg",
@@ -221,7 +221,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
 
   Film(
     title: "Avengers",
-    Director: "Joss Whedon",
+    director: "Joss Whedon",
     year: 2012,
     id: "f12",
     categories: [
@@ -234,7 +234,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
   ),
   Film(
     title: "Justice League",
-    Director: "Zack Snyder",
+    director: "Zack Snyder",
     year: 2021,
     id: "f13",
     categories: 
@@ -248,7 +248,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
   Film(
     title: "Batman V Superman",
     id: "f14",
-    Director: "zack Snyder",
+    director: "zack Snyder",
     imageUrl: "https://thedirect.s3.amazonaws.com/media/article_full/batsup1.jpg",
     rating: 7.5,
     categories: [
@@ -261,7 +261,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
   Film(
     title: "Pirates Of Carribbean",
     id: "f15",
-    Director:  'Gore Verbinski',
+    director:  'Gore Verbinski',
     imageUrl: "https://thumbor.forbes.com/thumbor/711x436/https://blogs-images.forbes.com/scottmendelson/files/2017/05/pirates_of_the_caribbean_dead_men_tell_no_tales_by_mintmovi3-db23j4w.jpg?width=960",
     rating: 7.4,
     categories: [
@@ -275,7 +275,7 @@ imageUrl: "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi
     imageUrl: "https://www.denofgeek.com/wp-content/uploads/2021/03/Who-Wins-in-Godzilla-vs-Kong.jpeg?resize=768%2C432",
     title: "GodZilla Vs Kong",
     year: 2021,
-    Director: "Adam Wingard",
+    director: "Adam Wingard",
     categories: [
       "a3"
     ],

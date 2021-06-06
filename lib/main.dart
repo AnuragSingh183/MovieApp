@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies/info.dart';
 import './filter.dart';
 import 'package:movies/ThirdScreen.dart';
 import 'package:movies/secondscreen.dart';
@@ -12,6 +13,10 @@ void main() {
 
 
 class MyApp extends StatelessWidget {
+
+  final List<Film> favouritefilms = [
+
+  ];
 
   // This widget is the root of your application.
   @override
@@ -46,7 +51,7 @@ class MyApp extends StatelessWidget {
       ),
       //home: categoriesScreen(),
       routes: {
-        "/":(_)=>TabScreen(),  //equivalent to home:categories()
+        "/":(_)=>TabScreen(favouritefilms),  //equivalent to home:categories()
         "/xxx": (_)=>MovieScreen(),
         //"categoriesMeals.routeName":(_)=>......//can use the class name
         "/abc":(_)=>Movieinfo(),
